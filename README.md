@@ -8,10 +8,10 @@
 
 ![task2](./screens/task2.jpg)
 
-# Добавялем контакт
+## Добавляем контакт
 
 ![task3](./screens/task3.jpg)
 
-# Удаляем контакт
+## Удаляем контакт
 
 ![task4](./screens/task4.jpg)
