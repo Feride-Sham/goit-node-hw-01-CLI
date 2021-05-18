@@ -40,9 +40,10 @@ function addContact(name, email, phone) {
         phone,
       };
 
-      if (
-        contactList.find((el) => el.name.toLowerCase() === name.toLowerCase())
-      ) {
+      const isExistingName = contactList.find(
+        (el) => el.name.toLowerCase() === name.toLowerCase()
+      );
+      if (isExistingName) {
         console.log("Ooops, a contact with the same name already exists ");
         return;
       }
